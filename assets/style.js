@@ -1,5 +1,6 @@
 $(document).ready(function()
 {
+	$('.page-loader-wrapper').hide();
 
 	var navbar = $('.navbar-default');
 	$(window).scroll(function(){
@@ -8,7 +9,9 @@ $(document).ready(function()
 			$('.scrollTop').fadeOut();
 		} else {
 			navbar.addClass('navbar-scroll');
-
+			$('button.navbar-toggle').css('background','#FF6600');
+			$('button.navbar-toggle:hover').css('background','#FF6600');
+			$('button.navbar-toggle').css('border-radius','0px');
 			$('.scrollTop').show().fadeIn();
 		}
 	});
@@ -31,6 +34,14 @@ $(document).ready(function()
 	  separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
 	  speed: 2000 // How many milliseconds until the next word show.
 	});
+
+	var docHeight = $(window).height();
+   var footerHeight = $('#footer').height();
+   var footerTop = $('#footer').position().top + footerHeight;
+
+   if (footerTop < docHeight) {
+    $('#footer').css('margin-top', 10+ (docHeight - footerTop) + 'px');
+   }
 
 })
 
