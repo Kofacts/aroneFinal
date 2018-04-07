@@ -1,44 +1,47 @@
 @font-face {
     font-family: avenir;
-    src: url('fonts/AEH.ttf');
+    src: url('fonts/Avenir-Black.ttf');
+}
+
+@font-face {
+    font-family: avenirM;
+    src: url('fonts/avenir-Medium.ttf');
 }
 body
 {
 	width: 100%;
-	font-family: 'Roboto';
+	font-family: 'avenirM';
 	overflow-x: hidden !important;
 
 }
 nav.navbar-default
 {
-	background: black ;
+	background: transparent; ;
 	border-radius: 0px ;
 	border: 0px ;
-	height: 70px ;
-	padding-top: 8px ;
+	height: 40px ;
+	padding-top: 0px !important;
+	padding-bottom: 2px !important;
 	color: white;
-	font-family: 'Roboto';
+	font-family: 'avenirM';
+	font-weight: 300;
 	margin-bottom: 0px ;
-
 }
 section#navSection
 {
-	background: black !important;
 	border:1px solid black;
 }
 section.sectionBg
 {
-	background: url('../src/bgOverlay.png') repeat 0 0;
 	height: 100% !important;
 	margin-top: 0px !important;
 	background-size: cover;
 	background-repeat: no-repeat !important;
 	background-attachment: fixed;
-  width: 100%;
+    width: 100%;
 
   padding-top: 120px;
   box-sizing: border-box;
-  -webkit-animation: slide 20s linear infinite;
 }
 @-webkit-keyframes slide {
     from { background-position: 0 0; }
@@ -61,7 +64,7 @@ span#suav
 span#sectionSubText
 {
 	font-size: 20px !important;
-	font-family: 'Roboto';
+	font-family: 'avenirM';
 	text-align: justify;
 	color: white;
 	font-weight: 300;
@@ -131,8 +134,8 @@ section.sectionFooter
 {
 	background: #F5F5F5 !important;
 	height: 100%;
-	margin-top: 50px !important;
-	padding-top: 60px !important;
+	margin-top: 50px;
+	padding-top: 60px ;
 	padding-bottom: 60px;
 	margin-bottom: 0px !important;
 }
@@ -219,26 +222,10 @@ button#footerInfoIcon
 }
 ul li a
 {
-	color: #FF6600 !important;
+	color: rgb(74, 74, 74) !important;
 }
 
-.topBotomBordersOut a:before
-{
-    top: 0px;
-    transform: translateY(10px);
-}
 
-.topBotomBordersOut a:after
-{
-    bottom: 0px;
-    transform: translateY(-10px);
-}
-
-.topBotomBordersOut a:hover:before, .topBotomBordersOut a:hover:after
-{
-    opacity: 1;
-    transform: translateY(0px);
-}
 /* Rectangle In */
 .hvr-rectangle-in {
   display: inline-block;
@@ -484,6 +471,10 @@ span.sectionBlack
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
+div.leftMe
+{
+	padding-right: 0px !important;
+}
 
 /** end **/
 #bs-example-navbar-collapse-1
@@ -519,10 +510,14 @@ span.icon-bar
      {
      	font-size: 30px !important;
      }
+     #logoFoot
+     {
+     	margin-top: 0px !important;
+     }
  }
  section.secContent
  {
- 	background: url('../src/background.png'), linear-gradient(black,black);
+ 	background:white;
  	height: 200px;
  	background-size: contain;
  	background-position: center;
