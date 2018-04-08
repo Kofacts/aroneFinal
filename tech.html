@@ -9,6 +9,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.css">
+	<link rel="stylesheet" type="text/css" href="assets/slick/slick/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="assets/slick/slick/slick.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/1.0/css/imagehover.min.css">
 </head>
 <body style="background:#F5F5F5">
@@ -44,7 +46,7 @@
 		    	</div>
 		      </button>
 
-		      <a class="navbar-brand" href="#">
+		      <a class="navbar-brand" href="/">
 		      	<img src="src/aronelogo6editpng.png" style="height: 120px; width: 200px; position: absolute; top: 0; margin-top: -34px">
 		      </a>
 		    </div>
@@ -53,10 +55,10 @@
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      
 		      <ul class="nav navbar-nav navbar-right topBotomBordersOut">
-		        <li><a href="#" id="link">Our Technology</a></li>
-		        <li><a href="#" id="link">Business</a></li>
-		        <li><a href="#" id="link">About Us</a></li>
-		        <li><a href="#" id="link">Contact Us</a></li>
+		        <li class="active"><a class="active" href="tech.html" id="link">Our Technology</a></li>
+		        <li><a href="business.html" id="link">Business</a></li>
+		        <li><a href="about.html" id="link">About Us</a></li>
+		        <li><a href="contact.html" id="link">Contact Us</a></li>
 		        <li><a href="#" id="link">Blog</a></li>
 
 		        
@@ -66,7 +68,7 @@
 	</nav>
 	</section>	
 
-	<section class="secContent" style="padding-bottom: 100px; margin-bottom: 2500px; background-color: inherit;">
+	<section class="secContent" style="padding-bottom:100px; margin-bottom: 2000px; background-color: inherit;">
 		<div class="container" style="margin-top: 50px;padding-top: 30px;">
 			<center><h1 style="color: black !important; font-weight: 600; padding-bottom: 50px">Flight Autonomy & Safety</h1></center>
 		</div>
@@ -77,7 +79,7 @@
 
 	<div class="container-fluid" style="background:white">
 		<div class="container">
-			<span style="text-align: justify; padding-top: 30px; padding-bottom: 50px; font-size: 20px; line-height: 2em">
+			<span id="textLight" style="text-align: justify; padding-top: 30px; padding-bottom: 50px; font-size: 20px; line-height: 2em">
 				Arones are fully autonomous with artificial intelligence software for safe navigation from take off to delivery and landing. 
 				Arones use advanced deep learning algorithms to detect,  recognize and avoid collision with other flying objects flight. <br><br>
 				Arone’s situation awareness allows them to predict attacks in other to navigate smartly during delivery.<br><br>
@@ -88,15 +90,19 @@
 			<br><br>
 		</div>
 	</div>
+ 
+	<section class="slider">
+		<div class="container-fluid" style="background:url('src/drone1.jpg'); height: 500px; width: 100% !important; background-size: cover; background-position: center; background repeat: no-repeat; background-attachment: fixed;">
+			
+		</div>
 
-	<div class="container-fluid" style="background: white !important">
-		<center><h1 style="color: black !important; font-weight: 600; padding-bottom: 50px">Avports</h1></center><br>
-			<center><img src="src/AroneSafety_ill.jpg" style="width: 50%; height: 50%"></center>
-	</div> 
-
+		<div class="container-fluid" style="background:url('src/drone2.jpg'); height: 500px; width: 100% !important; background-size: cover; background-position: center; background repeat: no-repeat; background-attachment: fixed;">
+			
+		</div>
+	</section>
 		<div class="container-fluid" style="background:white; padding-bottom: 50px; height: auto !important">
 		<div class="container">
-			<span style="text-align: justify; padding-top: 30px; padding-bottom: 50px; font-size: 20px; line-height: 2em">
+			<span id="textLight" style="text-align: justify; padding-top: 30px; padding-bottom: 50px; font-size: 20px; line-height: 2em">
 				Avports are a network of ground based battery swap stations, they are the equivalent of Airports for Arone delivery.  They extend the distance Arones can travel and allow inter-state and inter-continental Arone deliveries. <br><br>
 				Avports are 120 kilometers apart and besides being predominantly ground based and be on Oceans such as the Atlantic Ocean to allow oversea delivery. <br><br>
 				Avports are powered solely using solar energy, Africa has an abundant supply of solar energy, this provides an eco friendly and low cost  means to generate electrical energy required to power Arones. <br><br>
@@ -106,14 +112,6 @@
 			<br><br>
 		</div>
 	</div>
-	</section>
-
-		<section class="sectionFooter">
-		<div class="container">
-			<center>
-				<img src="src/aroned.png" id="logoFoot" style="height: 70%; width: 70%; margin-top: -400px">
-			</center>
-		</div>
 	</section>
 
 
@@ -188,6 +186,15 @@
 	<script type="text/javascript" src="assets/bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/style.js"></script>
 	<script type="text/javascript" src="assets/jst.js"></script>
+	<script type="text/javascript" src="assets/slick/slick/slick.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.slider').slick({
+				dots: true,
+				autoplay: true
+			});
+		})
+	</script>
 	
 </body>
 </html>

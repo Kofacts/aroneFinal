@@ -7,12 +7,22 @@
     font-family: avenirM;
     src: url('fonts/avenir-Medium.ttf');
 }
+@font-face
+{
+	font-family: avenirL;
+	src:url('fonts/avenir-Light.ttf');
+}
 body
 {
 	width: 100%;
 	font-family: 'avenirM';
 	overflow-x: hidden !important;
 
+}
+span#textLight
+{
+	font-family: 'avenirL';
+	text-align: justify;
 }
 nav.navbar-default
 {
@@ -56,6 +66,13 @@ h3#sectionBigText
 	font-weight: 600 !important;
 	padding-top: 17px;
 }
+a.active
+{
+	border-bottom: 2px solid black;
+	background:transparent !important;
+	opacity: .8;
+	padding-bottom: 8px !important;
+}
 span#suav
 {
 	background: #FF6600;
@@ -63,7 +80,7 @@ span#suav
 }
 span#sectionSubText
 {
-	font-size: 20px !important;
+	font-size: 17px !important;
 	font-family: 'avenirM';
 	text-align: justify;
 	color: white;
@@ -129,6 +146,15 @@ div#arrowDown
 ul li a
 {
 	color: white;
+	
+}
+ul li a:hover
+{
+	border-bottom: 2px solid black;
+	background:transparent;
+	opacity: .7 !important;
+	padding-bottom: 8px !important;
+	transition:opacity .5s ease-out;
 }
 section.sectionFooter
 {
@@ -517,6 +543,7 @@ span.icon-bar
      .secContent
      {
      	padding-bottom: 700px !important;
+     	margin-bottom: 2450px !important;
      }
  }
  section.secContent
