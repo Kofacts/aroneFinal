@@ -547,7 +547,50 @@ span.icon-bar
 	background: transparent !important;
 	border:0px !important;
 }
+button#scrollBottom
+{
+	border-radius: 30px;
+	height: 30px;
+	width: 30px;
+	border:1px solid rgb(255, 102, 0);
+	outline: none;
+	background:transparent;
+	font-size: 15px;
+	margin-top: 30px;
+}
+button#scrollBottom:hover
+{
+	background:rgb(255, 102, 0);
+	transition: background 1s ease-out;
+}
+.text-tech
+{
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: justify;
+}
 @media only screen and (max-width: 768px) {
+	.home-text
+	{
+		padding-top: 120px !important;
+		font-size: 20px !important;
+		padding-bottom: 30px;
+	}
+	.text-tech
+	{
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+	section#mainBackground
+	{
+		height: 100% !important;
+		background-position: center;
+		background-size: cover;
+	}
+	button#scrollBottom
+	{
+		margin-top: 30px;
+	}
    #bs-example-navbar-collapse-1 {
         border-color: white;
         background-color: white !important;
@@ -574,6 +617,11 @@ span.icon-bar
      {
      	background: url('../src/DroneDelivery3.jpg') no-repeat contain cover fixed !important;
      	height: 300px !important;
+     }
+     .about_slider
+     {
+     	margin-top: 20px !important;
+     	height: auto !important;
      }
  }
  section.secContent

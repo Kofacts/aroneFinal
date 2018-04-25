@@ -16,7 +16,7 @@ $(document).ready(function()
 		}
 	});
 
-	$('button#floatDown').click(function(){
+	$('button#scrollBottom').click(function(){
 		// Scroll to a certain element
 		document.querySelector('.paddMeTop').scrollIntoView({ 
 		  behavior: 'smooth' 
