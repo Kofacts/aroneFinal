@@ -584,8 +584,8 @@ button#scrollBottom:hover
 	section#mainBackground
 	{
 		height: 100% !important;
-		background-position: center;
-		background-size: cover;
+		background-position: center !important;
+		background-size: cover !important;
 	}
 	button#scrollBottom
 	{
