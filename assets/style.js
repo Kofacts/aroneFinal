@@ -23,6 +23,14 @@ $(document).ready(function()
 		});
 	});
 
+	$('button.paddMeTop2').click(function(){
+		// Scroll to a certain element
+		document.querySelector('.Section80').scrollIntoView({ 
+		  behavior: 'smooth' 
+		});
+	});
+	
+
 	$('button.scrollTop').click(function(){
 		document.querySelector('.navsection').scrollIntoView({ 
 		  behavior: 'smooth' 
