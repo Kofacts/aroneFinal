@@ -12,6 +12,11 @@
 	font-family: avenirL;
 	src:url('fonts/avenir-Light.ttf');
 }
+@font-face
+{
+	font-family: proxima;
+	src:url('fonts/Proxima Nova Reg.ttf');
+}
 body
 {
 	width: 100%;
@@ -75,9 +80,8 @@ h3#sectionBigText
 {
 	font-size: 3.5vw;
 	color: white;
-	font-family: 'avenir';
+	font-weight: 300 !important;
 	line-height: 1.7em;
-	font-weight: 600 !important;
 	padding-top: 17px;
 }
 a.active
@@ -96,7 +100,7 @@ span#suav
 span#sectionSubText
 {
 	font-size: 17px !important;
-	font-family: 'avenirM';
+	font-family: 'proxima';
 	text-align: justify;
 	color: white;
 	font-weight: 300;
