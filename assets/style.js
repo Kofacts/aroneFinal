@@ -18,15 +18,17 @@ $(document).ready(function()
 
 	$('button#scrollBottom').click(function(){
 		// Scroll to a certain element
-		document.querySelector('.paddMeTop').scrollIntoView({ 
-		  behavior: 'smooth' 
+		document.querySelector('.secondBg').scrollIntoView({ 
+		  behavior: 'smooth' ,
+		  block: 'end',
 		});
 	});
 
 	$('button.paddMeTop2').click(function(){
 		// Scroll to a certain element
 		document.querySelector('.Section80').scrollIntoView({ 
-		  behavior: 'smooth' 
+		  behavior: 'smooth' ,
+		  block: 'start'
 		});
 	});
 	
