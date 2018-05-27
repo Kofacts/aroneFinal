@@ -26,6 +26,15 @@ $(document).ready(function()
 
 	$('button.paddMeTop2').click(function(){
 		// Scroll to a certain element
+
+		document.querySelector('section.paddNoMe').scrollIntoView({ 
+		  behavior: 'smooth' ,
+		  block: 'end',
+		});
+	});
+
+	$('button.paddMeTop2').click(function(){
+		// Scroll to a certain element
 		document.querySelector('.Section80').scrollIntoView({ 
 		  behavior: 'smooth' ,
 		  block: 'start'
