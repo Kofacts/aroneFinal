@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2017 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="35.0553mm" height="22.5234mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1313.65 844.03"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="624" font-variant="normal" style="fill-rule:nonzero" font-weight="400">
+	<font-face 
+		font-family="Futura Bk BT">
+		<font-face-src>
+			<font-face-name name="Futura Bk BT Book"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="*" horiz-adv-x="413" d="M74.3283 439.005l-24.3374 42.9853 109.174 63.01 -109.174 63.01 25.3498 42.9853 109.66 -64.0021 -0.992124 128.004 49.9909 0 -0.992124 -124.987 110.328 60.9852 24.6614 -43.9977 -110.328 -61.9976 110.328 -61.0055 -24.6614 -43.9977 -109.336 61.1675 0 -122.173 -49.9909 0 0 124.015 -109.68 -64.0021z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Futura Bk BT";font-variant:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    .str0 {stroke:white;stroke-width:31.73;stroke-miterlimit:22.9256}
+    .fil0 {fill:none}
+    .fil1 {fill:white}
+    .fnt0 {font-weight:normal;font-size:185.08px;font-family:'Futura Bk BT'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_3006527714240">
+   <rect class="fil0 str0" x="15.86" y="15.86" width="1281.92" height="812.31" rx="172.14" ry="177.69"/>
+   <rect class="fil0 str0" x="174.8" y="205.45" width="964.05" height="170.52" rx="295.9" ry="85.26"/>
+   <rect class="fil0 str0" x="450.53" y="523.3" width="412.58" height="115.27" rx="126.63" ry="57.64"/>
+   <text x="426.59" y="391.95"  class="fil1 fnt0">******</text>
+  </g>
+ </g>
+</svg>
