@@ -22,6 +22,11 @@
 	font-family: avenirU;
 	src:url('fonts/AvenirNext-UltraLight.ttf');
 }
+@font-face
+{
+  font-family: Hel;
+  src:url('fonts/HelveticaNeue.ttf');
+}
 body
 {
 	width: 100%;
@@ -172,7 +177,7 @@ ul li a
 	color: white;
 	padding-left: 3px !important;
 	padding-right: 3px !important;
-	padding-bottom: 0px !important;
+	padding-bottom: 5px !important;
 	margin-left: 10px !important; 
 	
 }
@@ -601,10 +606,33 @@ button#scrollBottom2:hover
 @media only screen and (max-width: 768px) {
 	.home-text
 	{
-		padding-top: 250px !important;
+		padding-top: 150px !important;
 		font-size: 20px !important;
 		padding-bottom: 30px;
 	}
+  span#ss_
+  {
+    font-size: 25px !important;
+  }
+  .xd
+  {
+    color: white; 
+    border:0px !important;  
+    padding-left: 0px !important; 
+    padding-right: 0px !important; 
+    padding-top: 0px !important; 
+    padding-bottom: 0px !important; 
+    margin-left: 0px !important; 
+  }
+  ul li a:hover
+{
+  border-bottom: 1px solid transparent;
+  background:yellow;
+  opacity: .7 !important;
+  padding-left:3px !important;
+  padding-bottom: 5px !important;
+  transition:opacity .5s ease-out;
+}
   a#link
 {
   font-size: 20px !important;
