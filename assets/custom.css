@@ -597,7 +597,7 @@ button#scrollBottom2:hover
 @media only screen and (max-width: 768px) {
 	.home-text
 	{
-		padding-top: 120px !important;
+		padding-top: 250px !important;
 		font-size: 20px !important;
 		padding-bottom: 30px;
 	}
@@ -608,7 +608,7 @@ button#scrollBottom2:hover
 	}
 	section#mainBackground
 	{
-		height: 100% !important;
+		height:450px !important;
 		background-position: center !important;
 		background-size: cover !important;
 	}
