@@ -619,6 +619,8 @@ button#scrollBottom2:hover
    #bs-example-navbar-collapse-1 {
         border-color: white;
         background-color: white !important;
+        width: 200% !important;
+        margin-left: -10px !important;
      } 
      #sectionBigText
      {
