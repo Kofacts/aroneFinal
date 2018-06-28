@@ -594,6 +594,10 @@ button#scrollBottom2:hover
 	padding-right: 100px;
 	text-align: justify;
 }
+.scrollTop
+{
+  margin-bottom: 70px !important;
+}
 @media only screen and (max-width: 768px) {
 	.home-text
 	{
@@ -601,6 +605,10 @@ button#scrollBottom2:hover
 		font-size: 20px !important;
 		padding-bottom: 30px;
 	}
+  a#link
+{
+  font-size: 20px !important;
+}
 	.text-tech
 	{
 		padding-left: 0px !important;
