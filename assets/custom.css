@@ -606,13 +606,25 @@ button#scrollBottom2:hover
 @media only screen and (max-width: 768px) {
 	.home-text
 	{
-		padding-top: 150px !important;
+		padding-top: 100px !important;
 		font-size: 20px !important;
 		padding-bottom: 30px;
 	}
+  .topBotomBordersOut
+  {
+    height: 100vh;
+  }
+  span#small
+  {
+    font-size: 20px !important;
+  }
   span#ss_
   {
     font-size: 25px !important;
+  }
+  img#logo
+  {
+    margin-left: -40px;
   }
   .xd
   {
@@ -623,6 +635,10 @@ button#scrollBottom2:hover
     padding-top: 0px !important; 
     padding-bottom: 0px !important; 
     margin-left: 0px !important; 
+  }
+  li a
+  {
+    padding-top: 20px;
   }
   ul li a:hover
 {
@@ -636,6 +652,7 @@ button#scrollBottom2:hover
   a#link
 {
   font-size: 20px !important;
+  padding-bottom: 30px;
 }
 	.text-tech
 	{
@@ -657,6 +674,7 @@ button#scrollBottom2:hover
         background-color: white !important;
         width: 200% !important;
         margin-left: -10px !important;
+        height: 100vh;
      } 
      #sectionBigText
      {
