@@ -636,9 +636,9 @@ button#scrollBottom2:hover
     padding-bottom: 0px !important; 
     margin-left: 0px !important; 
   }
-  li a
+  a#link
   {
-    padding-top: 20px;
+    padding-top: 25px;
   }
   ul li a:hover
 {
@@ -674,7 +674,7 @@ button#scrollBottom2:hover
         background-color: white !important;
         width: 200% !important;
         margin-left: -10px !important;
-        height: 100vh;
+        height: 200em;
      } 
      #sectionBigText
      {
