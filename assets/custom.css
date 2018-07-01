@@ -27,6 +27,10 @@
   font-family: Hel;
   src:url('fonts/HelveticaNeue.ttf');
 }
+html
+{
+  width: 100% !important;
+}
 body
 {
 	width: 100%;
