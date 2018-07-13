@@ -610,7 +610,7 @@ button#scrollBottom2:hover
 @media only screen and (max-width: 768px) {
 	.home-text
 	{
-		padding-top: 100px !important;
+		padding-top: 120px !important;
 		font-size: 20px !important;
 		padding-bottom: 30px;
 	}
@@ -625,6 +625,11 @@ button#scrollBottom2:hover
   span#ss_
   {
     font-size: 25px !important;
+    padding-top: 20px !importants;
+  }
+  small#sss_
+  {
+    font-size: 20px !important;
   }
   img#logo
   {
