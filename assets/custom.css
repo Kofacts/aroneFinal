@@ -269,7 +269,7 @@ button#footerInfoIcon
 	height: 100%;
 	width: 100%;
 	background:transparent;
-	/** border:1px solid #FF6600; **/
+	border:1px solid transparent;
 }
 /* Top and Bottom borders go out */
 .topBotomBordersOut a:before, .topBotomBordersOut a:after
