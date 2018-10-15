@@ -1039,7 +1039,7 @@ SECTION MARGIN
     }
 
     .navbar .nav.navbar-nav {
-        padding-top: 0;
+        padding-top: 15px;;
         padding-bottom: 0;
         padding-right: 85px;
         
@@ -1064,7 +1064,7 @@ SECTION MARGIN
 
     .navbar .nav.navbar-nav li a,
     .navbar .nav.navbar-nav.navbar-right li a	{
-        padding: 20px 18px;
+        padding: 12px 30px;
         -o-transition: all .2s ease-in-out;
         -webkit-transition: all .2s ease-in-out;
         -moz-transition: all .2s ease-in-out;
@@ -1078,7 +1078,8 @@ SECTION MARGIN
     .navbar .nav.navbar-nav li a:hover	{
        background-color: black;
         color: white;
-        opacity: 0.5
+        opacity: 0.5;
+        border-radius: 100px;
     }
 }
 
