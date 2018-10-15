@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+          content="apetech is a powerful 100% Responsive app landing page template, Corporate Business, Marketing & Startup Agency HTML Template">
+    <meta name="keyword"
+          content="bootstrap, app, startup company, app landing page, app showcase, best app, finance, html template, institution, landing page, lead generation, marketing, responsive, software, startup, nonprofit, retail, creative, entertainment, miscellaneous, corporate, tchnology, personal">
+
+    <!--title-->
+    <title>ApeTech - App Landing Page Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon
+    ================================================== -->
+    <link href="img/favicon.png" rel="shortcut icon" type="image/x-icon"/>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+
+
+    <!-- Google Web fonts
+    ================================================== -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+    <!-- Font Icons
+    ================================================== -->
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<!-- Preloading -->
+<div id="preloader">
+    <div class="spinner">
+    </div>
+</div>
+<div class="promo container-fluid" style="background: url('img/home-slider-1.jpg')no-repeat center center / cover">
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <a class="pull-left logo" href="index.html"><img src="img/logo-color.png" alt="bizdeal logo"></a>
+                    <a target="_blank" class="pull-right buy-link hidden-xs" href="https://themeforest.net/item/apetech-app-landing-page/22693503">BUY TEMPLATE</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-612">
+                <div class="promo-content text-center">
+                    <a data-scroll="" class="page-btn" href="#content">CHECK DEMOS</a>
+                </div>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+    </div>
+</div>
+<div id="content" class="content container">
+    <div class="row">
+        <a href="http://apetech.graphicsdeep.com/demo/index.html" target="_blank"
+           class="col-md-4 col-sm-6 col-xs-12 demo">
+            <figure>
+                <img src="img/1.jpg" alt="">
+                <figcaption>Demo 1</figcaption>
+            </figure>
+        </a>
+        <a href="http://apetech.graphicsdeep.com/demo/index-1.html" target="_blank"
+           class="col-md-4 col-sm-6 col-xs-12 demo">
+            <figure>
+                <img src="img/2.jpg" alt="">
+                <figcaption>Demo 2</figcaption>
+            </figure>
+        </a>
+        <a href="http://apetech.graphicsdeep.com/demo/index-2.html" target="_blank"
+           class="col-md-4 col-sm-6 col-xs-12 demo">
+            <figure>
+                <img src="img/3.jpg" alt="">
+                <figcaption>Demo 3</figcaption>
+            </figure>
+        </a>
+    </div>
+    <div class="row" style="margin-top:100px;">
+        <a href="http://apetech.graphicsdeep.com/demo/index-3.html" target="_blank"
+           class="col-md-4 col-sm-6 col-xs-12 demo">
+            <figure>
+                <img src="img/4.jpg" alt="">
+                <figcaption>Demo 4</figcaption>
+            </figure>
+        </a>
+        <a href="http://apetech.graphicsdeep.com/demo/index-4.html" target="_blank"
+           class="col-md-4 col-sm-6 col-xs-12 demo">
+            <figure>
+                <img src="img/5.jpg" alt="">
+                <figcaption>Demo 5</figcaption>
+            </figure>
+        </a>
+        <a href="http://apetech.graphicsdeep.com/demo/index-5.html" target="_blank"
+           class="col-md-4 col-sm-6 col-xs-12 demo">
+            <figure>
+                <img src="img/6.jpg" alt="">
+                <figcaption>Demo 6</figcaption>
+            </figure>
+        </a>
+    </div>
+
+    <div class="row" style="margin-top:100px;">
+        <a href="http://apetech.graphicsdeep.com/demo/index-6.html" target="_blank"
+           class="col-md-4 col-sm-6 col-xs-12 demo">
+            <figure>
+                <img src="img/7.jpg" alt="">
+                <figcaption>Demo 7</figcaption>
+            </figure>
+        </a>
+        <a href="http://apetech.graphicsdeep.com/demo/index-7.html" target="_blank"
+           class="col-md-4 col-sm-6 col-xs-12 demo">
+            <figure>
+                <img src="img/8.jpg" alt="">
+                <figcaption>Demo 8</figcaption>
+            </figure>
+        </a>
+        <a href="http://apetech.graphicsdeep.com/demo/index-8.html" target="_blank"
+           class="col-md-4 col-sm-6 col-xs-12 demo">
+            <figure>
+                <img src="img/9.jpg" alt="">
+                <figcaption>Demo 9</figcaption>
+            </figure>
+        </a>
+    </div>
+
+    <div class="row" style="margin-top:100px;">
+        <a href="http://apetech.graphicsdeep.com/demo/index-9.html" target="_blank"
+           class="col-md-4 col-sm-6 col-xs-12 demo">
+            <figure>
+                <img src="img/10.jpg" alt="">
+                <figcaption>Demo 10t</figcaption>
+            </figure>
+        </a>
+        <a href="http://apetech.graphicsdeep.com/demo/index-10.html" target="_blank"
+           class="col-md-4 col-sm-6 col-xs-12 demo">
+            <figure>
+                <img src="img/11.jpg" alt="">
+                <figcaption>Demo 11</figcaption>
+            </figure>
+        </a>
+        <a href="http://apetech.graphicsdeep.com/demo/index-11.html" target="_blank"
+           class="col-md-4 col-sm-6 col-xs-12 demo">
+            <figure>
+                <img src="img/12.jpg" alt="">
+                <figcaption>Demo 12</figcaption>
+            </figure>
+        </a>
+    </div>
+
+    <div class="row" style="margin-top:100px;">
+        <a href="http://apetech.graphicsdeep.com/demo/index-12.html" target="_blank"
+           class="col-md-4 col-sm-6 col-xs-12 demo">
+            <figure>
+                <img src="img/13.jpg" alt="">
+                <figcaption>Demo 13</figcaption>
+            </figure>
+        </a>
+        <a href="http://apetech.graphicsdeep.com/demo/blog.html" target="_blank"
+           class="col-md-4 col-sm-6 col-xs-12 demo">
+            <figure>
+                <img src="img/14.jpg" alt="">
+                <figcaption>Blog</figcaption>
+            </figure>
+        </a>
+        <a href="http://apetech.graphicsdeep.com/demo/blog-details.html" target="_blank"
+           class="col-md-4 col-sm-6 col-xs-12 demo">
+            <figure>
+                <img src="img/blog-single.jpg" alt="">
+                <figcaption>Blog Details</figcaption>
+            </figure>
+        </a>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <a target="_blank" class="page-btn color" href="https://themeforest.net/item/apetech-app-landing-page/22693503" style="margin-top:100px;">BUY SOPHIA </a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="col-md-6 col-md-offset-3 text-center">
+            <a href="index.html" class="logo"><img src="img/logo-color.png" alt="footer logo"></a>
+            <div class="social">
+                <a target="_blank" href="https://www.facebook.com/HtmlLover/"><i class="fa fa-facebook"
+                                                                                 aria-hidden="true"></i></a>
+                <a target="_blank" href="https://www.behance.net/HtmlLover"><i class="fa fa-behance"
+                                                                               aria-hidden="true"></i></a>
+                <a target="_blank" href="https://dribbble.com/HtmlLover"><i class="fa fa-dribbble"
+                                                                            aria-hidden="true"></i></a>
+            </div>
+            <p>
+                Designed by <a href="https://themeforest.net/user/htmllover">HtmlLover</a>. All rights reserved.
+            </p>
+        </div>
+    </div>
+</footer>
+
+<a href="https://themeforest.net/item/apetech-app-landing-page/22693503" target="_blank" class="pulse-wr">
+    <p class="popup-pulse">
+        <span>$</span>14
+    </p>
+</a>
+
+<!-- Javascripts
+================================================== -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/smooth-scroll.min.js"></script>
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
