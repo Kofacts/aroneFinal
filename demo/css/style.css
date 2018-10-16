@@ -1024,10 +1024,6 @@ SECTION MARGIN
     }
 }
 
-.navbar-default {
-	background-color: transparent;
-	border-color: transparent;
-}
 
 @media (min-width: 768px){
     .navbar {
