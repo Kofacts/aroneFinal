@@ -995,8 +995,8 @@ SECTION MARGIN
 .navbar .navbar-toggle:active,
 .navbar .navbar-toggle.collapsed:active {
     margin-top: 16px;
-    /*border: 1px solid #fff;
-    background-color: #fff;*/
+    border: 1px solid #fff;
+    background-color: #fff;
 }
 
 .navbar .navbar-toggle .icon-bar,
@@ -1014,7 +1014,7 @@ SECTION MARGIN
 }
 
 .navbar .navbar-toggle.collapsed .icon-bar {
-    /*background-color: #fff;*/
+    background-color: #fff;
 }
 /* end of mobile menu toggle button */
 
