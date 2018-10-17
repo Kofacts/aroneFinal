@@ -3013,7 +3013,7 @@ SECTION MARGIN
     align-items: center;
     float: left;
     padding: 5px 20px;
-    border-radius: 80px;
+    border-radius: 100px;
     margin-bottom: 10px;
 }
 .download-btn p small{
@@ -3036,7 +3036,7 @@ SECTION MARGIN
     }
 }
 
-.download-app-button a:hover{
+/*.download-app-button a:hover{
     background: #fff;
 }
 .download-app-button a:hover p, .download-btn.hover-active p{
@@ -3050,7 +3050,7 @@ SECTION MARGIN
 
 .download-btn.hover-active{
     background: #fff;
-}
+}*/
 
 
 
