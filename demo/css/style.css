@@ -3546,7 +3546,7 @@ ul.blog-comments li p {
 /*============================================================
 				17. TEAM CSS
 ============================================================*/
-.team-sec{vertical-align: middle; width: 60%; margin-left: 220px;}
+.team-sec{vertical-align: middle; width: 75%; margin-left: 250px;}
 .team .photo {width: 180px; height: 180px; display: inline-block; overflow: hidden; position: relative; }
 .photo-shadow {position: absolute; z-index: -1; top: 12px; left: 16px; bottom: -10px; border: 1px solid #E3E3E3; height: 200px; width: 96px; background: #fff; }
 .col-item{position: relative;}
